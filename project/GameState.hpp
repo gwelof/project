@@ -6,11 +6,14 @@
 //|||||||||||||||||||||||||||||||||||||||||||||||
 
 #include "AppState.hpp"
+#include "AdvancedOgreFramework.hpp"
 
 #include "DotSceneLoader.hpp"
 
 #include <OgreSubEntity.h>
 #include <OgreMaterialManager.h>
+#include <Terrain/OgreTerrain.h>
+#include <Terrain/OgreTerrainGroup.h>
 
 //|||||||||||||||||||||||||||||||||||||||||||||||
 
@@ -37,7 +40,7 @@ public:
 
         void moveCamera();
         void getInput();
-    void buildGUI();
+		void buildGUI();
 
         bool keyPressed(const OIS::KeyEvent &keyEventRef);
         bool keyReleased(const OIS::KeyEvent &keyEventRef);
@@ -47,30 +50,39 @@ public:
         bool mouseReleased(const OIS::MouseEvent &arg, OIS::MouseButtonID id);
 
         void onLeftPressed(const OIS::MouseEvent &evt);
-    void itemSelected(OgreBites::SelectMenu* menu);
+		void itemSelected(OgreBites::SelectMenu* menu);
 
         void update(double timeSinceLastFrame);
 
 private:
-        Ogre::SceneNode*                        m_pOgreHeadNode;
-        Ogre::Entity*                           m_pOgreHeadEntity;
-        Ogre::MaterialPtr                       m_pOgreHeadMat;
-        Ogre::MaterialPtr                       m_pOgreHeadMatHigh;
+        Ogre::SceneNode*  m_pOgreHeadNode;
+        Ogre::Entity*  m_pOgreHeadEntity;
+        Ogre::MaterialPtr  m_pOgreHeadMat;
+        Ogre::MaterialPtr  m_pOgreHeadMatHigh;
+		Ogre::Root*  m_pRoot;
 
-    OgreBites::ParamsPanel*             m_pDetailsPanel;
-        bool                                            m_bQuit;
+    OgreBites::ParamsPanel*  m_pDetailsPanel;
+        bool  m_bQuit;
 
-        Ogre::Vector3                           m_TranslateVector;
-        Ogre::Real                                      m_MoveSpeed;
-        Ogre::Degree                            m_RotateSpeed;
-        float                                           m_MoveScale;
-        Ogre::Degree                            m_RotScale;
+        Ogre::Vector3  m_TranslateVector;
+        Ogre::Real  m_MoveSpeed;
+        Ogre::Degree m_RotateSpeed;
+        float  m_MoveScale;
+        Ogre::Degree  m_RotScale;
 
         Ogre::RaySceneQuery*            m_pRSQ;
-        Ogre::SceneNode*                        m_pCurrentObject;
-        Ogre::Entity*                           m_pCurrentEntity;
-        bool                                            m_bLMouseDown, m_bRMouseDown;
-        bool                                            m_bSettingsMode;
+        Ogre::SceneNode* m_pCurrentObject;
+        Ogre::Entity*  m_pCurrentEntity;
+        bool  m_bLMouseDown, m_bRMouseDown;
+        bool  m_bSettingsMode;
+		
+		Ogre::TerrainGlobalOptions* mTerrainGlobals;
+		Ogre::TerrainGroup* mTerrainGroup;
+		bool mTerrainsImported;
+ 
+		void defineTerrain(long x, long y);
+		void initBlendMaps(Ogre::Terrain* terrain);
+		void configureTerrainDefaults(Ogre::Light* light);//
 };
 
 //|||||||||||||||||||||||||||||||||||||||||||||||
