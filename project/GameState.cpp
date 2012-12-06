@@ -181,12 +181,7 @@ void GameState::createScene()
 	m_pCamera->setPosition(Ogre::Vector3(1683, 50, 2116));
     m_pCamera->lookAt(Ogre::Vector3(1963, 50, 1660));
     m_pCamera->setNearClipDistance(0.1);
-    m_pCamera->setFarClipDistance(50000);
- 
-    if (m_pRoot->getRenderSystem()->getCapabilities()->hasCapability(Ogre::RSC_INFINITE_FAR_PLANE))
-    {
-        m_pCamera->setFarClipDistance(0);   // enable infinite far clip distance if we can
-    }
+    m_pCamera->setFarClipDistance(30000);
  
     Ogre::MaterialManager::getSingleton().setDefaultTextureFiltering(Ogre::TFO_ANISOTROPIC);
     Ogre::MaterialManager::getSingleton().setDefaultAnisotropy(7);

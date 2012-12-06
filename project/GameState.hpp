@@ -6,7 +6,6 @@
 //|||||||||||||||||||||||||||||||||||||||||||||||
 
 #include "AppState.hpp"
-#include "AdvancedOgreFramework.hpp"
 
 #include "DotSceneLoader.hpp"
 
@@ -59,9 +58,9 @@ private:
         Ogre::Entity*  m_pOgreHeadEntity;
         Ogre::MaterialPtr  m_pOgreHeadMat;
         Ogre::MaterialPtr  m_pOgreHeadMatHigh;
-		Ogre::Root*  m_pRoot;
+		Ogre::Root* m_pRoot;
 
-    OgreBites::ParamsPanel*  m_pDetailsPanel;
+		OgreBites::ParamsPanel*  m_pDetailsPanel;
         bool  m_bQuit;
 
         Ogre::Vector3  m_TranslateVector;
@@ -70,7 +69,7 @@ private:
         float  m_MoveScale;
         Ogre::Degree  m_RotScale;
 
-        Ogre::RaySceneQuery*            m_pRSQ;
+        Ogre::RaySceneQuery* m_pRSQ;
         Ogre::SceneNode* m_pCurrentObject;
         Ogre::Entity*  m_pCurrentEntity;
         bool  m_bLMouseDown, m_bRMouseDown;
