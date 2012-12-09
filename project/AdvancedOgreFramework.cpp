@@ -14,10 +14,10 @@ template<> OgreFramework* Ogre::Singleton<OgreFramework>::msSingleton = 0;
 
 OgreFramework::OgreFramework()
 {
-    m_pRoot                             = 0;
+    m_pRoot                     = 0;
     m_pRenderWnd                = 0;
     m_pViewport                 = 0;
-    m_pLog                              = 0;
+    m_pLog                      = 0;
     m_pTimer                    = 0;
 
     m_pInputMgr                 = 0;

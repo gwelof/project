@@ -1,5 +1,5 @@
-﻿Build started 27-11-12 5:44:50 PM.
-     1>Project "C:\Users\felix\Desktop\tutorials\project\project\project.vcxproj" on node 2 (build target(s)).
+﻿Build started 09-12-12 1:43:47 AM.
+     1>Project "C:\Users\felix\Desktop\project\project\project.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\project.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -13580,6 +13580,209 @@
                  c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogretextareaoverlayelement.h(178) : see declaration of 'Ogre::TextAreaOverlayElement::CmdColourBottom'
      1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogretextareaoverlayelement.h(227): warning C4251: 'Ogre::TextAreaOverlayElement::msCmdAlignment' : class 'Ogre::TextAreaOverlayElement::CmdAlignment' needs to have dll-interface to be used by clients of class 'Ogre::TextAreaOverlayElement'
                  c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogretextareaoverlayelement.h(198) : see declaration of 'Ogre::TextAreaOverlayElement::CmdAlignment'
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(103): warning C4251: 'Ogre::TerrainLayerSampler::alias' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::TerrainLayerSampler'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(127): warning C4251: 'Ogre::TerrainLayerDeclaration::samplers' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::TerrainLayerDeclaration'
+                 with
+                 [
+                     _Ty=Ogre::TerrainLayerSampler,
+                     _Ax=Ogre::STLAllocator<Ogre::TerrainLayerSampler,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(128): warning C4251: 'Ogre::TerrainLayerDeclaration::elements' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::TerrainLayerDeclaration'
+                 with
+                 [
+                     _Ty=Ogre::TerrainLayerSamplerElement,
+                     _Ax=Ogre::STLAllocator<Ogre::TerrainLayerSamplerElement,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(165): warning C4251: 'Ogre::TerrainMaterialGenerator::Profile::mName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainMaterialGenerator::Profile'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(166): warning C4251: 'Ogre::TerrainMaterialGenerator::Profile::mDesc' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainMaterialGenerator::Profile'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(382): warning C4251: 'Ogre::TerrainMaterialGenerator::mProfiles' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainMaterialGenerator'
+                 with
+                 [
+                     _Ty=Ogre::TerrainMaterialGenerator::Profile *,
+                     _Ax=Ogre::STLAllocator<Ogre::TerrainMaterialGenerator::Profile *,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainlayerblendmap.h(68): warning C4251: 'Ogre::TerrainLayerBlendMap::mDirtyBox' : struct 'Ogre::Box' needs to have dll-interface to be used by clients of class 'Ogre::TerrainLayerBlendMap'
+                 c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogrecommon.h(661) : see declaration of 'Ogre::Box'
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(261): warning C4275: non dll-interface class 'Ogre::SceneManager::Listener' used as base for dll-interface class 'Ogre::Terrain'
+                 c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogrescenemanager.h(220) : see declaration of 'Ogre::SceneManager::Listener'
+                 c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(261) : see declaration of 'Ogre::Terrain'
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(297): warning C4251: 'Ogre::Terrain::LayerInstance::textureNames' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::Terrain::LayerInstance'
+                 with
+                 [
+                     _Ty=Ogre::String,
+                     _Ax=Ogre::STLAllocator<Ogre::String,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(586): warning C4251: 'Ogre::Terrain::DefaultGpuBufferAllocator::mFreePosBufList' : class 'std::list<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain::DefaultGpuBufferAllocator'
+                 with
+                 [
+                     _Ty=Ogre::HardwareVertexBufferSharedPtr,
+                     _Ax=Ogre::STLAllocator<Ogre::HardwareVertexBufferSharedPtr,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(587): warning C4251: 'Ogre::Terrain::DefaultGpuBufferAllocator::mFreeDeltaBufList' : class 'std::list<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain::DefaultGpuBufferAllocator'
+                 with
+                 [
+                     _Ty=Ogre::HardwareVertexBufferSharedPtr,
+                     _Ax=Ogre::STLAllocator<Ogre::HardwareVertexBufferSharedPtr,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(589): warning C4251: 'Ogre::Terrain::DefaultGpuBufferAllocator::mSharedIBufMap' : class 'std::map<_Kty,_Ty,_Pr,_Alloc>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain::DefaultGpuBufferAllocator'
+                 with
+                 [
+                     _Kty=Ogre::uint32,
+                     _Ty=Ogre::HardwareIndexBufferSharedPtr,
+                     _Pr=std::less<size_t>,
+                     _Alloc=Ogre::STLAllocator<std::pair<const Ogre::uint32,Ogre::HardwareIndexBufferSharedPtr>,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1681): warning C4251: 'Ogre::Terrain::mResourceGroup' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1705): warning C4251: 'Ogre::Terrain::mLayers' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=Ogre::Terrain::LayerInstance,
+                     _Ax=Ogre::STLAllocator<Ogre::Terrain::LayerInstance,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1706): warning C4251: 'Ogre::Terrain::mLayerUVMultiplier' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=Ogre::Real,
+                     _Ax=Ogre::STLAllocator<Ogre::Real,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1713): warning C4251: 'Ogre::Terrain::mDirtyGeometryRect' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1714): warning C4251: 'Ogre::Terrain::mDirtyDerivedDataRect' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1715): warning C4251: 'Ogre::Terrain::mDirtyGeometryRectForNeighbours' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1716): warning C4251: 'Ogre::Terrain::mDirtyLightmapFromNeighboursRect' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1751): warning C4251: 'Ogre::Terrain::mMaterialName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1753): warning C4251: 'Ogre::Terrain::mMaterialGenerator' : class 'Ogre::SharedPtr<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=Ogre::TerrainMaterialGenerator
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1762): warning C4251: 'Ogre::Terrain::mCpuBlendMapStorage' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=unsigned char *,
+                     _Ax=Ogre::STLAllocator<unsigned char *,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1764): warning C4251: 'Ogre::Terrain::mBlendTextureList' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=Ogre::TexturePtr,
+                     _Ax=Ogre::STLAllocator<Ogre::TexturePtr,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1765): warning C4251: 'Ogre::Terrain::mLayerBlendMapList' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=Ogre::TerrainLayerBlendMap *,
+                     _Ax=Ogre::STLAllocator<Ogre::TerrainLayerBlendMap *,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1781): warning C4251: 'Ogre::Terrain::mCompositeMapDirtyRect' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1841): warning C4251: 'Ogre::TerrainGlobalOptions::mDefaultMaterialGenerator' : class 'Ogre::SharedPtr<T>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGlobalOptions'
+                 with
+                 [
+                     T=Ogre::TerrainMaterialGenerator
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1850): warning C4251: 'Ogre::TerrainGlobalOptions::mResourceGroup' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGlobalOptions'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(305): warning C4251: 'Ogre::TerrainGroup::TerrainSlotDefinition::filename' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::TerrainGroup::TerrainSlotDefinition'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(508): warning C4251: 'Ogre::TerrainGroup::mDefaultImportData' : struct 'Ogre::Terrain::ImportData' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(319) : see declaration of 'Ogre::Terrain::ImportData'
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(510): warning C4251: 'Ogre::TerrainGroup::mTerrainSlots' : class 'std::map<_Kty,_Ty,_Pr,_Alloc>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 with
+                 [
+                     _Kty=Ogre::uint32,
+                     _Ty=Ogre::TerrainGroup::TerrainSlot *,
+                     _Pr=std::less<size_t>,
+                     _Alloc=Ogre::STLAllocator<std::pair<const Ogre::uint32,Ogre::TerrainGroup::TerrainSlot *>,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(512): warning C4251: 'Ogre::TerrainGroup::mFilenamePrefix' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(513): warning C4251: 'Ogre::TerrainGroup::mFilenameExtension' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(514): warning C4251: 'Ogre::TerrainGroup::mResourceGroup' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\users\felix\desktop\project\project\gamestate.cpp(183): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>c:\users\felix\desktop\project\project\gamestate.cpp(189): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>c:\users\felix\desktop\project\project\gamestate.cpp(189): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>c:\users\felix\desktop\project\project\gamestate.cpp(196): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\felix\desktop\project\project\gamestate.cpp(196): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\felix\desktop\project\project\gamestate.cpp(196): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\felix\desktop\project\project\gamestate.cpp(198): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\felix\desktop\project\project\gamestate.cpp(198): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\felix\desktop\project\project\gamestate.cpp(198): warning C4305: 'argument' : truncation from 'double' to 'float'
          DotSceneLoader.cpp
      1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogrestring.h(195): warning C4251: 'Ogre::StringUtil::BLANK' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::StringUtil'
                  with
@@ -17073,7 +17276,7 @@
                      _Traits=std::char_traits<char>,
                      _Ax=std::allocator<char>
                  ]
-     1>c:\users\felix\desktop\tutorials\project\project\dotsceneloader.cpp(41): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+     1>c:\users\felix\desktop\project\project\dotsceneloader.cpp(41): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
                  d:\programs\vc\include\string.h(238) : see declaration of 'strdup'
          DemoApp.cpp
      1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogrestring.h(195): warning C4251: 'Ogre::StringUtil::BLANK' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::StringUtil'
@@ -20469,6 +20672,200 @@
                  c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogretextareaoverlayelement.h(178) : see declaration of 'Ogre::TextAreaOverlayElement::CmdColourBottom'
      1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogretextareaoverlayelement.h(227): warning C4251: 'Ogre::TextAreaOverlayElement::msCmdAlignment' : class 'Ogre::TextAreaOverlayElement::CmdAlignment' needs to have dll-interface to be used by clients of class 'Ogre::TextAreaOverlayElement'
                  c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogretextareaoverlayelement.h(198) : see declaration of 'Ogre::TextAreaOverlayElement::CmdAlignment'
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(103): warning C4251: 'Ogre::TerrainLayerSampler::alias' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::TerrainLayerSampler'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(127): warning C4251: 'Ogre::TerrainLayerDeclaration::samplers' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::TerrainLayerDeclaration'
+                 with
+                 [
+                     _Ty=Ogre::TerrainLayerSampler,
+                     _Ax=Ogre::STLAllocator<Ogre::TerrainLayerSampler,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(128): warning C4251: 'Ogre::TerrainLayerDeclaration::elements' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::TerrainLayerDeclaration'
+                 with
+                 [
+                     _Ty=Ogre::TerrainLayerSamplerElement,
+                     _Ax=Ogre::STLAllocator<Ogre::TerrainLayerSamplerElement,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(165): warning C4251: 'Ogre::TerrainMaterialGenerator::Profile::mName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainMaterialGenerator::Profile'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(166): warning C4251: 'Ogre::TerrainMaterialGenerator::Profile::mDesc' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainMaterialGenerator::Profile'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainmaterialgenerator.h(382): warning C4251: 'Ogre::TerrainMaterialGenerator::mProfiles' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainMaterialGenerator'
+                 with
+                 [
+                     _Ty=Ogre::TerrainMaterialGenerator::Profile *,
+                     _Ax=Ogre::STLAllocator<Ogre::TerrainMaterialGenerator::Profile *,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrainlayerblendmap.h(68): warning C4251: 'Ogre::TerrainLayerBlendMap::mDirtyBox' : struct 'Ogre::Box' needs to have dll-interface to be used by clients of class 'Ogre::TerrainLayerBlendMap'
+                 c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogrecommon.h(661) : see declaration of 'Ogre::Box'
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(261): warning C4275: non dll-interface class 'Ogre::SceneManager::Listener' used as base for dll-interface class 'Ogre::Terrain'
+                 c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogrescenemanager.h(220) : see declaration of 'Ogre::SceneManager::Listener'
+                 c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(261) : see declaration of 'Ogre::Terrain'
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(297): warning C4251: 'Ogre::Terrain::LayerInstance::textureNames' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::Terrain::LayerInstance'
+                 with
+                 [
+                     _Ty=Ogre::String,
+                     _Ax=Ogre::STLAllocator<Ogre::String,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(586): warning C4251: 'Ogre::Terrain::DefaultGpuBufferAllocator::mFreePosBufList' : class 'std::list<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain::DefaultGpuBufferAllocator'
+                 with
+                 [
+                     _Ty=Ogre::HardwareVertexBufferSharedPtr,
+                     _Ax=Ogre::STLAllocator<Ogre::HardwareVertexBufferSharedPtr,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(587): warning C4251: 'Ogre::Terrain::DefaultGpuBufferAllocator::mFreeDeltaBufList' : class 'std::list<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain::DefaultGpuBufferAllocator'
+                 with
+                 [
+                     _Ty=Ogre::HardwareVertexBufferSharedPtr,
+                     _Ax=Ogre::STLAllocator<Ogre::HardwareVertexBufferSharedPtr,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(589): warning C4251: 'Ogre::Terrain::DefaultGpuBufferAllocator::mSharedIBufMap' : class 'std::map<_Kty,_Ty,_Pr,_Alloc>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain::DefaultGpuBufferAllocator'
+                 with
+                 [
+                     _Kty=Ogre::uint32,
+                     _Ty=Ogre::HardwareIndexBufferSharedPtr,
+                     _Pr=std::less<size_t>,
+                     _Alloc=Ogre::STLAllocator<std::pair<const Ogre::uint32,Ogre::HardwareIndexBufferSharedPtr>,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1681): warning C4251: 'Ogre::Terrain::mResourceGroup' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1705): warning C4251: 'Ogre::Terrain::mLayers' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=Ogre::Terrain::LayerInstance,
+                     _Ax=Ogre::STLAllocator<Ogre::Terrain::LayerInstance,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1706): warning C4251: 'Ogre::Terrain::mLayerUVMultiplier' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=Ogre::Real,
+                     _Ax=Ogre::STLAllocator<Ogre::Real,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1713): warning C4251: 'Ogre::Terrain::mDirtyGeometryRect' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1714): warning C4251: 'Ogre::Terrain::mDirtyDerivedDataRect' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1715): warning C4251: 'Ogre::Terrain::mDirtyGeometryRectForNeighbours' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1716): warning C4251: 'Ogre::Terrain::mDirtyLightmapFromNeighboursRect' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1751): warning C4251: 'Ogre::Terrain::mMaterialName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1753): warning C4251: 'Ogre::Terrain::mMaterialGenerator' : class 'Ogre::SharedPtr<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=Ogre::TerrainMaterialGenerator
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1762): warning C4251: 'Ogre::Terrain::mCpuBlendMapStorage' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=unsigned char *,
+                     _Ax=Ogre::STLAllocator<unsigned char *,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1764): warning C4251: 'Ogre::Terrain::mBlendTextureList' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=Ogre::TexturePtr,
+                     _Ax=Ogre::STLAllocator<Ogre::TexturePtr,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1765): warning C4251: 'Ogre::Terrain::mLayerBlendMapList' : class 'std::vector<_Ty,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     _Ty=Ogre::TerrainLayerBlendMap *,
+                     _Ax=Ogre::STLAllocator<Ogre::TerrainLayerBlendMap *,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1781): warning C4251: 'Ogre::Terrain::mCompositeMapDirtyRect' : struct 'Ogre::TRect<T>' needs to have dll-interface to be used by clients of class 'Ogre::Terrain'
+                 with
+                 [
+                     T=long
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1841): warning C4251: 'Ogre::TerrainGlobalOptions::mDefaultMaterialGenerator' : class 'Ogre::SharedPtr<T>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGlobalOptions'
+                 with
+                 [
+                     T=Ogre::TerrainMaterialGenerator
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(1850): warning C4251: 'Ogre::TerrainGlobalOptions::mResourceGroup' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGlobalOptions'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(305): warning C4251: 'Ogre::TerrainGroup::TerrainSlotDefinition::filename' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of struct 'Ogre::TerrainGroup::TerrainSlotDefinition'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(508): warning C4251: 'Ogre::TerrainGroup::mDefaultImportData' : struct 'Ogre::Terrain::ImportData' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterrain.h(319) : see declaration of 'Ogre::Terrain::ImportData'
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(510): warning C4251: 'Ogre::TerrainGroup::mTerrainSlots' : class 'std::map<_Kty,_Ty,_Pr,_Alloc>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 with
+                 [
+                     _Kty=Ogre::uint32,
+                     _Ty=Ogre::TerrainGroup::TerrainSlot *,
+                     _Pr=std::less<size_t>,
+                     _Alloc=Ogre::STLAllocator<std::pair<const Ogre::uint32,Ogre::TerrainGroup::TerrainSlot *>,Ogre::GeneralAllocPolicy>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(512): warning C4251: 'Ogre::TerrainGroup::mFilenamePrefix' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(513): warning C4251: 'Ogre::TerrainGroup::mFilenameExtension' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\terrain\ogreterraingroup.h(514): warning C4251: 'Ogre::TerrainGroup::mResourceGroup' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::TerrainGroup'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
          AppStateManager.cpp
      1>c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogrestring.h(195): warning C4251: 'Ogre::StringUtil::BLANK' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Ogre::StringUtil'
                  with
@@ -27259,9 +27656,9 @@
                  c:\sprograms\x\ogresdk_vc10_v1-7-1\ogre\include\ogre\ogretextareaoverlayelement.h(198) : see declaration of 'Ogre::TextAreaOverlayElement::CmdAlignment'
          Generating Code...
        ManifestResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\project.exe.embed.manifest.res" Debug\project_manifest.rc 
        Link:
-         d:\programs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\felix\Desktop\tutorials\project\Debug\project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SPROGRAMS\X\OgreSDK_vc10_v1-7-1\Ogre\lib\Debug" /LIBPATH:"C:\SPROGRAMS\X\OgreSDK_vc10_v1-7-1\Ogre\boost\lib" OgreMain_d.lib OgreTerrain_d.lib OIS_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\felix\Desktop\tutorials\project\Debug\project.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\felix\Desktop\tutorials\project\Debug\project.lib" /MACHINE:X86 Debug\project.exe.embed.manifest.res
+         d:\programs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\felix\Desktop\project\Debug\project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SPROGRAMS\X\OgreSDK_vc10_v1-7-1\Ogre\lib\Debug" /LIBPATH:"C:\SPROGRAMS\X\OgreSDK_vc10_v1-7-1\Ogre\boost\lib" OgreMain_d.lib OgreTerrain_d.lib OIS_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\felix\Desktop\project\Debug\project.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\felix\Desktop\project\Debug\project.lib" /MACHINE:X86 Debug\project.exe.embed.manifest.res
          Debug\AdvancedOgreFramework.obj
          Debug\AppStateManager.obj
          Debug\DemoApp.obj
@@ -27275,16 +27672,16 @@
          All outputs are up-to-date.
        LinkEmbedManifest:
          All outputs are up-to-date.
-         project.vcxproj -> C:\Users\felix\Desktop\tutorials\project\Debug\project.exe
+         project.vcxproj -> C:\Users\felix\Desktop\project\Debug\project.exe
        PostBuildEvent:
-         copy "C:\Users\felix\Desktop\tutorials\project\Debug\\project.exe" "C:\SPROGRAMS\X\OgreSDK_vc10_v1-7-1\Ogre\Bin\Debug"
+         copy "C:\Users\felix\Desktop\project\Debug\\project.exe" "C:\SPROGRAMS\X\OgreSDK_vc10_v1-7-1\Ogre\Bin\Debug"
          :VCEnd
                  1 file(s) copied.
        FinalizeBuildStatus:
          Deleting file "Debug\project.unsuccessfulbuild".
          Touching "Debug\project.lastbuildstate".
-     1>Done Building Project "C:\Users\felix\Desktop\tutorials\project\project\project.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\felix\Desktop\project\project\project.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:02:12.80
+Time Elapsed 00:02:36.03

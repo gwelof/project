@@ -57,7 +57,7 @@ protected:
 
         Ogre::Camera*                           m_pCamera;
         Ogre::SceneManager*                     m_pSceneMgr;
-    Ogre::FrameEvent            m_FrameEvent;
+		Ogre::FrameEvent            m_FrameEvent;
 };
 
 //|||||||||||||||||||||||||||||||||||||||||||||||

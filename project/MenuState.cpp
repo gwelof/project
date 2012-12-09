@@ -18,7 +18,7 @@ MenuState::MenuState()
 
 void MenuState::enter()
 {
-    OgreFramework::getSingletonPtr()->m_pLog->logMessage("Entering MenuState...");
+    OgreFramework::getSingletonPtr()->m_pLog->logMessage("Menu...");
 
     m_pSceneMgr = OgreFramework::getSingletonPtr()->m_pRoot->createSceneManager(ST_GENERIC, "MenuSceneMgr");
     m_pSceneMgr->setAmbientLight(Ogre::ColourValue(0.7f, 0.7f, 0.7f));
@@ -37,9 +37,9 @@ void MenuState::enter()
     OgreFramework::getSingletonPtr()->m_pTrayMgr->showFrameStats(OgreBites::TL_BOTTOMLEFT);
     OgreFramework::getSingletonPtr()->m_pTrayMgr->showLogo(OgreBites::TL_BOTTOMRIGHT);
     OgreFramework::getSingletonPtr()->m_pTrayMgr->showCursor();
-    OgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "EnterBtn", "Enter GameState", 250);
-    OgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "ExitBtn", "Exit AdvancedOgreFramework", 250);
-    OgreFramework::getSingletonPtr()->m_pTrayMgr->createLabel(OgreBites::TL_TOP, "MenuLbl", "Menu mode", 250);
+    OgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "EnterBtn", "Start Game", 250);
+    OgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "ExitBtn", "Exit Game", 250);
+    OgreFramework::getSingletonPtr()->m_pTrayMgr->createLabel(OgreBites::TL_TOP, "MenuLbl", "Menu", 250);
 
     createScene();
 }
@@ -54,7 +54,7 @@ void MenuState::createScene()
 
 void MenuState::exit()
 {
-    OgreFramework::getSingletonPtr()->m_pLog->logMessage("Leaving MenuState...");
+    OgreFramework::getSingletonPtr()->m_pLog->logMessage("Menu...");
 
     m_pSceneMgr->destroyCamera(m_pCamera);
     if(m_pSceneMgr)
